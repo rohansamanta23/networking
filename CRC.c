@@ -24,7 +24,7 @@ int main(){
             }
         }else{
             for (int j = 0; j < keySize; j++){
-                key[j] = key2[i];
+                key[j] = key2[j];
             }
         }
         for(int j = keySize-1; j > 0; j--){
