@@ -36,7 +36,13 @@ int main(){
         }
         rem[keySize-1] = MSG[keySize+i];
         strcpy(temp,rem);
-        puts(temp);
     }
-
+    printf("the Quotient is:");
+    for(int i=0;i<msgSize;i++){
+        printf("%c",str[i]);
+    }
+    printf("\nthe Remainder is:");
+    for(int i=0;i<keySize-1;i++){
+        printf("%c",temp[i]);
+    }
 }
